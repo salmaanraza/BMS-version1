@@ -188,9 +188,9 @@ Enter Name      Enter Account    END
   │             Number
   ▼               │
 Set Password      ▼
-  │             Enter Password
-  ▼               │
-Generate          ▼
+  │             
+  ▼  
+Generate          
 Account Number  Find Account
   │               │
   ▼               ▼
