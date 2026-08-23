@@ -1,8 +1,7 @@
-import json
 import accountManagement as am
 import auth
 import dataStorage
-
+import costumerMenu as cm
 user_accounts = dataStorage.load_accounts()
 print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
           🏦 BANKING MANAGEMENT SYSTEM
@@ -27,6 +26,8 @@ while True:
 
         print("Add your accound number below")
         login = auth.login(user_accounts)
+        if login:
+            cm.costumer_menu(login)
 
     elif (choice == "3"):
 

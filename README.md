@@ -202,7 +202,7 @@ Account    Wrong      Correct
   │           │          │
   ▼           ▼          ▼
 Save       Attempts   CUSTOMER MENU
-Account      +1          │
+Account      +1           │
   │           │           │
   ▼           │     ┌─────┼──────┬──────────┐
 Main Menu     │     ▼     ▼      ▼          ▼

@@ -1,8 +1,26 @@
 [
      {
-          "name": "Muhammad salman raza",
+          "name": "muhammad salman raza",
           "password": "191121",
-          "account_number": "9667",
-          "initial_deposit": 1000.0
+          "account_number": "9607",
+          "initial_deposit": 10000.0,
+          "failed_attempts": 0,
+          "blocked": false
+     },
+     {
+          "name": "muhammad usman",
+          "password": "123456",
+          "account_number": "1171",
+          "initial_deposit": 1000.0,
+          "failed_attempts": 0,
+          "blocked": false
+     },
+     {
+          "name": "muhammad shayan raza",
+          "password": "123321",
+          "account_number": "1091",
+          "initial_deposit": 100.0,
+          "failed_attempts": 0,
+          "blocked": false
      }
 ]

@@ -1,5 +1,6 @@
 import random as rn
 import dataStorage 
+import auth
 
 def account_number_generater(user_accounts):
     """this function creates four digit unique account number"""
@@ -67,8 +68,10 @@ def account_details(name,password,account_number,initial_deposit):
         "name": name,
         "password": password,
         "account_number": account_number,
-        "initial_deposit": initial_deposit
-        
+        "initial_deposit": initial_deposit,
+        "failed_attempts":0,
+        "blocked": False
+
     }
     dataStorage.save_accounts(account_details)
     return account_details
